@@ -1,0 +1,222 @@
+@media only screen and (min-device-width: 150px){
+/*---ALGEMEEN -ZELFDE OVERAL ----------------------------------------------------------------------------------------------*/
+.sectionblock0, .sectionblock1,.sectionblock2,.sectionblock3,.sectionblock4{width:100%; margin-top:3%;clip-path: inset(0% 0% round 20px);}
+
+.menublock{width:100%; height:100px;position:absolute;top:0%;right:0px;}
+.bannerblock{background-color:#ff9bb3;width:100%;height:5%;clip-path: inset(0% 0% round 20px);} 
+.bannerblock img{width:100%; margin: 0 0 -3% 0; height: 100%;}
+.headerblock{background-color:inherit;border: 0px solid #182A3A;width:100%; height:100%;margin:3% 0 0% 0;clip-path: inset(0% 0% round 20px);}
+.banner_txtblock{width:80%;position:relative;opacity:80%;top:0px;transform:translate(0%,0%);z-index:20;text-align: left;margin:0 0 0 1%;}
+.footerblock{background-color:hsl(45, 77%, 88%);width:100%; height:100%;margin-top:3%;padding: 1% 1% 1% 1%;clip-path: inset(0% 0% round 20px);}
+/* ------------------------------------------------------------------------KLEUREN */
+body{color:#3f4344;background-color:#ffdce2; }
+[class*= "font-"] {color:#3f4344;}
+/**/
+.bannerblock{background-color:#3f4344;}
+.sectionblock0{background-color:inherit;}
+.sectionblock1{background-color:#ff7b6f;color:inherit; }
+.sectionblock2{background-color:#f44d7b;color:inherit; }
+.sectionblock3{background-color:#ff9bb3;color:inherit; }
+.sectionblock4{background-color:#3f4344;color:#ff7b6f; }
+/**/
+.font-20B{color:#182A3A;}
+a{color:#ff7b6f;text-decoration:none;}
+button a{color:#2B3E4F;text-decoration: none;}
+.button_formulier{color:white;background-color:#3f4344; border:2px solid inherit;}
+.menu a {color:#f5f5dc;}
+ol, ul, li{color:inherit;}
+a:hover, button a:hover{color:#ff9bb3;}
+.menu a:hover{color:#ff9bb3;}
+.color1{color:#D6BB80;}
+.retour:hover { background-color: #ff9bb3;}
+/*----------------------------------------------------------------------- //KLEUREN */
+/*----------------------------------------------------------------------- DIVERS */
+.TxtCenter{text-align: center;}
+.vorigeP,.volgendeP {text-decoration: none;z-index:50;}
+.vorigeP {width: 40px; height:30px; position:fixed; top: 50%; transform: translateY(-0%); left: 3%;background-color:#2B3E4F; clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);}
+.volgendeP {width: 40px; height:30px; position: fixed; top: 50%; transform: translateY(-0%); right: 3%; transform: translateX(0);background-color:#2B3E4F; clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);}
+.headertitel{text-align: center;padding: 0 0 1% 0;background-color:inherit;}
+.headerveld {line-height:1.5; width:100%;text-align:center;padding:0% 5% 2% 5%;margin:0 0 0 0;background-color:inherit;}
+.retour {
+  display: inline-flex;align-items: center;
+  padding: 10px 16px;border: none;
+  border-radius: 8px;cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.2s, transform 0.2s;
+  position:relative;top:0px;transform:translate(10%,-30%);
+  z-index:100;}
+.retour:hover {transform: translateX(-2px);}
+.retour:active {transform: translateX(0);}
+/*------------------------------------------------------------------------// DIVERS */
+/* LETTER ALGEMEEN */
+
+/* // LETTER ALGEMEEN */
+/* -----------------------------------------------------------------------LETTERTYPE */
+body,[class*="font-"]{font-family: "Roboto", sans-serif,"Gill Sans", "Gill Sans MT", "Calibri", Arial, "Helvetica", serif;
+    font-optical-sizing: auto;font-style: normal;font-variation-settings:"wdth" 100;color:inherit;}
+
+/*---------------------------------------------------------------------// LETTERTYPE */
+/*--//-ALGEMEEN -ZELFDE OVERAL ------------------------------------------------------------------------------------------*/
+/*-----ALGEMEEN -VERSCHILLEND -------mobiel------------------------------------------------------------------------------*/
+.verbergenLap{display:inline-block;} 
+.verbergenMob{display:none;}/*Als scherm mobiel is, dan display niet zichtbaar */
+/*---------------------------------------------------------------------- BREEDTE--*/
+[class*="col-"]{display: inline-block;text-align: center;}
+.col-4,.col-6,.col-12,.col-30,.col-40{width:100%;}  
+iframe{width: 100%;}
+/*--------------------------------------------------------------------// BREEDTE--*/
+/*-------------------------------------------------------------------- LETTER MOBIEL--*/
+.menuMobiel li{font-size:30px;}
+.font-20B{font-size: 28px; font-weight: 500;} 
+.pand_Htitel{font-size: 28px;font-weight:500;}
+body{font-size:16px;line-height: 1.4;}
+.pand_tekst{font-size: 16px;}
+.font-10{font-size:16px;}
+ol,ul,li{font-size:14px;color: inherit}
+.retour {font-size: 12px;}
+.font-9{font-size:12px;color:inherit;}
+.an-container li{font-size:12px;}
+.form,.form2{font-size:12px;}
+.button_formulier{font-size:12px;}
+.box-titel{font-size:26px;font-weight: 600;}
+.box-tekst{font-size:16px} 
+/*-----------------------------------------------------------------------// LETTER--*/
+/*--//-ALGEMEEN VERSCHILLEND -------mobiel------------------------------------------------------------------------------*/
+/*---BASIS-------mobiel-------------------------------------------------------------------------------------------------*/
+*{box-sizing: border-box;}
+    .menuboven {background-color:inherit;}
+    .menu-container{background-color:inherit;width:50%;margin: 2% 0 0 50%;}
+    .menu-container li{list-style-type: none;}
+    .menu-container a{text-decoration: none;}
+    .menu{background-color: inherit;margin: 2% 2% 2% 2%;}
+    #menu-container{background-color:inherit;display:flex;overflow:auto;flex-direction: row; width:100%;margin: 0 0 0 0%;}   
+    .menu-container img{width:10%;position:absolute;left:85%;top:20%;}
+    .logo_foot{padding: 0 0 0 0%;background-color:inherit;align-items:center;}
+    .logo_foot img{width:10%;margin:0% 5% 0% 5%;} /*logo footer */
+/*menu*/
+    .menuMobiel{background-color:#f5f5dc; width: 100%; margin: 10% 0 0 0;}
+    .menuMobiel li{list-style-type: none;  text-align: center;padding: 10% 0 0% 0%;}  
+    .menuMobiel{display:none;} /* wordt gebruikt voor javascipt, zie ook MENU */
+    #menuMobiel{background-color: inherit;}      
+/*---// BASIS-------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--INDEX----------------------mobiel------------------------------------------------------------------------------------*/
+.ind-container{background-attachment: fixed; background-size: cover;opacity: 80%; position:absolute;top: 0%;left:0%;transform:translate(0,0);}
+.ind-container img{width: 100%;}
+.img-txt-home{display:none;}
+[class*="clip-"]{width: 92px; height: 92px; margin: 3% 0 0 0}
+.clip-rechthoek{background-color:#f5f5dc; border-color: 3px solid #A87544;  
+    clip-path: inset(10% 2% round 20px);}
+.clip-rhom{background-color:#f5f5dc; border-color: 3px solid #D6BB80; 
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
+.clip-penta{background-color:#f5f5dc; border-color: 1px solid #f5f5dc;  
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);}
+.clip-circle{width:auto;background-color:#f5f5dc; border-color: 1px solid #f5f5dc;  
+    clip-path: circle(40%);}
+.clip-drie{background-color:#f5f5dc; border-color: 3px solid #747374;  
+    clip-path: polygon(0% 40%, 100% 40%, 50% 100%);}
+.box{text-align: center;padding:1% 1% 1% 1%;margin: 0% 0 0 0;}
+.box-titel{margin:1% 1% 1% 1%;}
+.box-tekst{margin:3% 1% 1% 2%;} 
+.boxre img, .boxli img{width:100%;}
+.boxre img{margin:0 0 -2% 0;}
+/*--// INDEX----------------------mobiel------------------------------------------------------------------------------------*/
+/*--OVERSBWE----------------------------mobiel-----------------------------------------------------------------*/
+.opmaak-sbwe{padding:5% 5% 5% 5%;}
+.opmaak-sbwe img{clip-path: inset(0% 0% round 20px);width:80%;}
+/*--// OVERSBWE-------------------------mobiel-----------------------------------------------------------------*/
+
+/*--CONTACT----------------------------Mobiel---------------------------------------------------------------------*/
+.contact-opmk{line-height: 2.0;padding:0 2% 0 2%;}
+.contact-verd{height:10%;}
+/*--// CONTACT-------------------------Mobiel---------------------------------------------------------------------*/
+/*--BARTHKAPELverhuur----------------------Mobiel----------------------------------------------------------------*/
+.bk-container{background-color:inherit;text-align:center;}
+.bk-container img {width:100%;margin: 0 0 0 0; clip-path: inset(0% 0% round 20px);}
+/*--// BARTHKAPELverhuur--------------mobiel---------------------------------------------------------------------*/
+/*--PANDEN----------------------------mobiel---------------------------------------------------------------------*/
+.pand-container{background-color:inherit;text-align:center;max-height:35%;min-height:35%;}
+.pand-container img, .pand-containerP img {width:100%; clip-path: inset(0% 0% round 20px)}
+.foto_portrait {background-color: inherit;padding:1% 0 1% 2%;}
+.foto_portrait img{max-height: 400px; width:80%;margin: 0 0 0 10%; clip-path: inset(0% 0% round 20px);}
+/*--// PANDEN----------------------------mobiel------------------------------------------------------------------*/
+ /*--VOORWAARDEN (CCINRICHITNG)--------------------------mobiel------------------------------------------------------------------*/
+.an-container, .cc-container{background-color:inherit;width:100%;align-items: center;margin: 0 0 0 0%; padding: 3% 0 0 0;}
+.an-container li {padding:0;line-height:2.0;list-style:circle outside;text-align: left;}
+.an-container ol {padding:0;line-height:2.0;list-style: inside;text-align: left;}
+.an-container ul li ul li{padding:0 0 0 5%;line-height:2.0;list-style:none;text-align: left;} /* 2e opsommingsniveau */
+.an-container ul li ul li::before{content:"\27A4";position:absolute;left:20%;}
+
+.cc-container img {width:100%;margin: 0 0 0 0; clip-path: inset(0% 0% round 20px);}
+/*--// VOORWAARDEN-----------------------mobiel------------------------------------------------------------------*/
+/*--PROGRAMMA & ATELIERS----------------------------Mobiel--------------------------------------------------------*/
+.prog {background-color: inherit;text-align: center; padding: 0 0 2% 0; }
+.prog-container{background-color: inherit;padding:0% 0 2% 0%;}
+.prog-container img{width:99%; clip-path: inset(0 0 round 20px);margin: 0% 0 5% 0;} 
+/*--// PROGRAMMA & ATELIERS-------------------------Mobiel--------------------------------------------------------*/
+/*----FORMULIER RESERVERING/WACHTLIJST---------------------------Mobiel-------------------------------------------*/
+.form{align-items:center;margin: 0% 0 0 0%;background-color:inherit;}
+.form2{margin:0% 0 0 2%;text-align: left;background-color:inherit;} /*lange tekst/vraag */
+.form_box{align-items: center;margin: 0% 0 0 0%;background-color:inherit;}
+.button_formulier{ width: auto;height:auto;margin: 0 0 2% 70%;clip-path: inset(0% 0% round 20px);}
+
+#popup{display:none;position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+/*--//  FORMULIER RESERVERING/WACHTLIJST-------------------------Mobiel--------------------------------------------*/
+
+
+/*--UITLEG---------------------------------------------------------------------------------------------------------------*/
+/* 
+translate(0%, -20%); horizontaal versus verticaal
+relative: vanaf linkerhoek in zijn rij. 
+absolute, vanaf rechterbovenhoek van beeldscherm
+margin:0% 0% 0% 0%; boven, rechts, onder, links
+padding:0 0 0 0%; 
+border:solid 0px rgb(7, 1, 31); lijn, dikte lijn, kleur lijn
+border-radius: 0%; ronding van de lijn
+*/
+/* // --UITLEG------------------------------------------------------------------------------------------------------------*/
+/*--VOLGORDE---------------------------------------------------------------------------------------------------------------*/
+/* ALGEMEEN > BASIS > MENU > INDEX > 
+
+*/ 
+/* // --VOLGORDE-----------------------------------------------------------------------------------------------------------*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

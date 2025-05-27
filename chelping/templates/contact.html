@@ -1,0 +1,93 @@
+{% extends 'basis.html' %}
+{% load static %}
+<!--------HEAD----->
+{% block styles %}
+<style>
+
+</style>
+{% endblock %}
+<!--------HEAD----->
+<!---------------------------------------BODY------------------------------------------------------------------------------------------->  
+<!--------BANNER----->
+{% block banner %}
+
+<div> <img src="{% static 'img/logo.png' %}" alt=""></div> 
+{% endblock %}
+<!-----//---BANNER--->
+
+<!----------HEADER----->
+{% block header %}
+{% if submitted %}
+{% else %}  
+<div class="row">
+        <div class="font-20B TxtCenter"> Contact </div>
+        <div class = "TxtCenter" >
+        Wilt u een kennismakings gesprek? Hieronder kunt u dit aangeven? 
+        </div>
+</div>
+{% endif %}  
+{% endblock header %}
+<!-----//---HEADER----->
+
+
+<!----------SECTION----->
+{% block section1 %}
+<!----> 
+{% if submitted %}
+    <div class = "TxtCenter"> <br> <br> Bedankt voor de aanvraag! <br><br>
+        We laten zo spoedig mogelijk weten of uw aanvraag mogelijk is.
+    </div>
+{% else %}  
+<form action="" method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+<!----> 
+<div class ="row">
+    <div class = "col-4 form">Naam: </div>
+    <div class = "col-4 form_box">{{ co_form.naam }} </div>
+</div>
+<!----> 
+<div class ="row">
+    <div class = "col-4 form">Leeftijd: </div>
+    <div class = "col-4 form_box">{{ co_form.leeftijd}}</div>
+</div>
+<!---->  
+<div class ="row">
+    <div class = "col-4 form"> Niveau</div>
+    <div class = "col-4 form_box">{{ co_form.niveau }}</div>
+</div>
+<!----> 
+<div class ="row">
+    <div class = "col-4 form">E-mail: </div>
+    <div class = "col-4 form_box">{{ co_form.email }}</div>
+</div>
+<!----> 
+<div class ="row">
+    <div class = "col-4 form">Telefoonnr.: </div>
+    <div class = "col-4 form_box">{{ co_form.telefoon }}</div>
+</div> 
+<!----> 
+<div class="row">
+    <button type ="submit" name = "submitted" class = "button_formulier" value = "true"> Verzenden  </button>
+</div>
+<!-------sluiting formulier----> 
+</form>
+{% endif %}
+<!-------sluiting formulier----> 
+{% endblock %}
+<!-----//---SECTION----->
+
+
+
+
+
+
+
+
+
+
+<!-----SECTION-------->
+{% block section3 %}
+{% endblock %}
+<!--//-SECTION-------->
+
+
