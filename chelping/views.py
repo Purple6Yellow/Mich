@@ -25,14 +25,13 @@ def rt(request):
 
 ###CONTACTFORMULIER
 def C_Aanvraag(request):
-  submitted = False
   if request.method== "POST":
     print('op verzendknop_FT geklikt')
     co_form = Form_Co(request.POST) #info ophalen
     pass
   else:
     pass
+    co_form = Form_Co()
   # // KLIK OP VERZENDEN
-  submitted = 'submitted' in request.GET
   print('formulier is ingediend > dankbericht verschijnt')
-  return render(request, 'formulier/wachtlijst.html', {'co_form':  co_form, 'submitted':submitted}) # formulier blijft gevuld :)
+  return render(request, 'contact.html', {'co_form':  co_form}) # formulier blijft gevuld :)

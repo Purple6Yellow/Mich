@@ -7,8 +7,12 @@
 .headerveld {line-height:1.5; width:100%;text-align:center;padding:0% 5% 2% 5%;margin:0 0 0 0;background-color:inherit;}
 
 .train{width:200px; height: 200px; background-color: #3f4344; clip-path: inset(0 0 round 20px);margin: 5% 5% 5% 5%; padding:5% 10% 20% 10%;}
-col-25{width:25%;}
+.col-25{width:25%;}
 
+.logo img{width:50%;}
+.profiel{clip-path: circle(35%);width:70%;margin: 0 0 0 15%;}
+.profiel img{width:100%;}
+button{clip-path: inset(0% 0% round 20px); width: 30%; height:100px;margin: 5% 0 0 0%;}
 </style>
 {% endblock %}
 <!--------HEAD----->
@@ -16,26 +20,47 @@ col-25{width:25%;}
 
 <!--------BANNER----->
 {% block banner %}
-<div> <img src="{% static 'img/logolang.png' %}" alt=""></div> 
-<br><br><br>
+<div class = "logo">
+   <img src="{% static 'img/logolang.png' %}" alt="">
+</div>
 {% endblock %}
 <!-----//---BANNER--->
 
 <!-----HEADER-------->
 {% block header %}
 <div class = "row">
-    <div class="font-20B headertitel">  </div>
+    <div class="font-20B headertitel"> Teaching / Coaching </div>
     <div class = "headerveld"></div> 
 </div>
 {% endblock %}
 <!----// -HEADER----->
 <!-----SECTION-------->
 {% block section1 %}
-    "Hallo, ik ben Michelle den Os, gecertificeerd docent en trainer. Ik bied persoonlijke begeleiding aan leerlingen die extra ondersteuning nodig hebben in rekenen, 
-    taal, Nederlands, faalangsttrainingen en 'ik leer leren' programma's. Mijn aanpak is praktijkgericht, met oog voor de specifieke behoeften 
-    van elke leerling."
+<div class = "row">
+    <div class = "col-6 padding" >
+        "Hallo, ik ben Michelle den Os, gecertificeerd docent en trainer. Ik bied persoonlijke begeleiding aan leerlingen die extra ondersteuning nodig hebben in rekenen, 
+        taal, Nederlands, faalangsttrainingen en 'ik leer leren' programma's. Mijn aanpak is praktijkgericht, met oog voor de specifieke behoeften 
+        van elke leerling."
+    </div>
+
+    <div class = "col-6">
+        <div class = "profiel">
+            <img src="{% static 'img/profiel.jpg' %}" alt="">
+        </div>
+    </div>
+</div>
 {% endblock %}
 <!--//-SECTION-------->
+<!-----BLANCO-------->
+{% block blanco1 %}
+<div class = "row">
+    <div class="font-20B headertitel margin"> Trainingen </div>
+    <div class = "headerveld"></div> 
+</div>
+{% endblock %}
+<!----// -BLANCO----->
+
+
 <!-----SECTION-------->
 {% block section2 %}
 <div class = "row">
@@ -61,10 +86,29 @@ col-25{width:25%;}
     </div>
 
 </div>
-{% endblock %}
+{% endblock %}  
 <!--//-SECTION-------->
+<!-----BLANCO-------->
+{% block blanco2 %}
+<div class = "row">
+    <div class="font-20B headertitel margin"> Kennismakingsgesprek </div>
+    <div class = "headerveld"></div> 
+</div>
+{% endblock %}
+<!----// -BLANCO----->
 <!-----SECTION-------->
 {% block section3 %}
-Deze kleur
+<div class = "row">
+    <div class = "col-6 padding" >
+      Wilt u een kennismakingsgesprek, dat is mogelijk. Vul aub dan formulier in. 
+    </div>
+
+    <div class = "col-6">
+        <div class = "">
+            <button> kennismaking </button>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
 <!--//-SECTION-------->

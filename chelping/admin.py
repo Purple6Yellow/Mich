@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Contact
 
-# Register your models here.
+
+admin.site.site_header = "Chelping"
+admin.site.register(Contact)

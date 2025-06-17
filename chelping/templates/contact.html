@@ -3,31 +3,37 @@
 <!--------HEAD----->
 {% block styles %}
 <style>
+.headertitel{text-align: center;padding: 0 0 1% 0;background-color:inherit;}
+.headerveld {line-height:1.5; width:100%;text-align:center;padding:0% 5% 2% 5%;margin:0 0 0 0;background-color:inherit;}
 
+.train{width:200px; height: 200px; background-color: #3f4344; clip-path: inset(0 0 round 20px);margin: 5% 5% 5% 5%; padding:5% 10% 20% 10%;}
+.col-25{width:25%;}
+
+.logo img{width:50%;}
+.profiel{clip-path: circle(35%);width:70%;margin: 0 0 0 15%;}
+.profiel img{width:100%;}
+button{clip-path: inset(0% 0% round 20px); width: 30%; height:100px;margin: 5% 0 0 0%;}
 </style>
 {% endblock %}
 <!--------HEAD----->
-<!---------------------------------------BODY------------------------------------------------------------------------------------------->  
+<!---------------------------------------BODY------------------------------------------------------------------------------------------->
+
 <!--------BANNER----->
 {% block banner %}
-
-<div> <img src="{% static 'img/logo.png' %}" alt=""></div> 
+<div class = "logo">
+   <img src="{% static 'img/logolang.png' %}" alt="">
+</div>
 {% endblock %}
 <!-----//---BANNER--->
 
-<!----------HEADER----->
+<!-----HEADER-------->
 {% block header %}
-{% if submitted %}
-{% else %}  
-<div class="row">
-        <div class="font-20B TxtCenter"> Contact </div>
-        <div class = "TxtCenter" >
-        Wilt u een kennismakings gesprek? Hieronder kunt u dit aangeven? 
-        </div>
+<div class = "row">
+    <div class="font-20B headertitel"> Kennismakingsgesprek </div>
+    <div class = "headerveld"></div> 
 </div>
-{% endif %}  
-{% endblock header %}
-<!-----//---HEADER----->
+{% endblock %}
+<!----// -HEADER----->
 
 
 <!----------SECTION----->
@@ -75,13 +81,6 @@
 <!-------sluiting formulier----> 
 {% endblock %}
 <!-----//---SECTION----->
-
-
-
-
-
-
-
 
 
 

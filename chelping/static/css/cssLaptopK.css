@@ -5,6 +5,8 @@
 .verbergenMob{display:inline-block;}
 .bannerblock{width:100%; height:300px;clip-path: inset(0% 0% round 20px);}
 .headerblock{margin: 0% 0 0% 0;background-color:inherit;}
+.margin{margin:5% 5% 5% 5%;}
+.padding{padding:5% 2% 2% 2%;}
 /*----*/
 /*-- BREEDTE--*/
 .row{display:inline-block;width:100%;background-color: inherit;}
@@ -33,8 +35,8 @@ ol,ul,li{font-size:18px;color:inherit; background-color:inherit;}
 .box-titel{font-size:20px;font-weight: 600;}
 .box-tekst{font-size:19px}
 [class*="clip-"]{font-size: 12px;}
-
 /*--//-------------------------------------------------LETTER--*/
+
 /*--// LAPTOP ALGEMEEN---------------------Laptop-----------------------------------------------------------------*/
 /*--BASIS----------------------------------Laptop-G---------------------------------------------------------------*/
 *{box-sizing: border-box;}*/
