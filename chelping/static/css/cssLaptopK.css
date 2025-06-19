@@ -8,16 +8,20 @@
 .margin{margin:5% 5% 5% 5%;}
 .padding{padding:5% 2% 2% 2%;}
 /*----*/
-/*-- BREEDTE--*/
+/* -----------------------------------------------------------------------    MATEN */
+.menublock{height:100px;}
+.bannerblock{height:200px;} 
 .row{display:inline-block;width:100%;background-color: inherit;}
 [class*="col-"]{float:left;}
 .col-4{width:33.33%;}
 .col-6{width:50%;background-color:inherit;}
 .col-12{width:100%;}
+.col-25{width: 25%;}
 .col-30{width:30%;}
 .col-40{width:40%;}
 iframe{width: 100%;height:400px;}
-/*--// BREEDTE--*/
+/* ----------------------------------------------------------------------//   MATEN */
+
 /*------------------------------------------------------LETTER LAPTOP--*/
 .font-20B{font-size: 34px; font-weight: 600;} 
 .pand_Htitel{font-size: 34px;font-weight:600;}

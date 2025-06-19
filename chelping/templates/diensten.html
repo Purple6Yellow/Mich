@@ -3,16 +3,7 @@
 <!--------HEAD----->
 {% block styles %}
 <style>
-.headertitel{text-align: center;padding: 0 0 1% 0;background-color:inherit;}
-.headerveld {line-height:1.5; width:100%;text-align:center;padding:0% 5% 2% 5%;margin:0 0 0 0;background-color:inherit;}
 
-.train{width:200px; height: 200px; background-color: #3f4344; clip-path: inset(0 0 round 20px);margin: 5% 5% 5% 5%; padding:5% 10% 20% 10%;}
-.col-25{width:25%;}
-
-.logo img{width:50%;}
-.profiel{clip-path: circle(35%);width:70%;margin: 0 0 0 15%;}
-.profiel img{width:100%;}
-button{clip-path: inset(0% 0% round 20px); width: 30%; height:100px;margin: 5% 0 0 0%;}
 </style>
 {% endblock %}
 <!--------HEAD----->
@@ -35,30 +26,37 @@ button{clip-path: inset(0% 0% round 20px); width: 30%; height:100px;margin: 5% 0
 {% endblock %}
 <!----// -HEADER----->
 
+
 <!-----SECTION-------->
-{% block section1 %}
+{% block section2 %}
 <div class = "row">
     <div class="col-25">  
-        <div class = "train"> 
+        <div class = "trainli"> 
+            <a href="/trainingen/faalangst.html">   <img src="{% static 'img/training/faalangst.jpg' %}" alt="">  </a>
             <a href="/trainingen/faalangst.html">   Faalangsts Trainingen  </a>
         </div>
     </div>
      <div class="col-25">  
          <div class = "train"> 
-              <a href="/trainingen/leerleren.html">     Ik Leer Leren Trainingen  </a>
+            <a href="/trainingen/leerleren.html">  <img src="{% static 'img/training/boeken.jpg' %}" alt="">   </a>
+            <a href="/trainingen/leerleren.html">     Ik Leer Leren Trainingen  </a>
           </div>
     </div>
      <div class="col-25">  
          <div class = "train"> 
-             <a href="/trainingen/remedial.html">      Remedial Teaching  </a> 
+            <a href="/trainingen/remedial.html"> <img src="{% static 'img/training/taal_rekenen.jpg' %}" alt="">   </a>
+            <a href="/trainingen/remedial.html">      Remedial Teaching  </a> 
           </div>
     </div>
     <div class="col-25">  
-        <div class = "train">  
-               <a href="/trainingen/nederlands.html">     Nederlands  </a>
+        <div class = "train"> 
+            <a href="/trainingen/nederlands.html">  <img src="{% static 'img/training/steen_pad.jpg' %}" alt="">   </a> 
+            <a href="/trainingen/nederlands.html">     Nederlands <br> <br>  </a>
             </div>
     </div>
 
 </div>
 {% endblock %}  
 <!--//-SECTION-------->
+
+
