@@ -3,13 +3,18 @@
 <!--------HEAD----->
 {% block styles %}
 <style>
-/* 
-#table_1 >>> id voor de tabel 
-#tbody >>> id voor de body van de tabel
->> ivm javascript 
-*/
+.fixed_header thead {
+    color: #fff;}
+
+.fixed_header thead tr {
+    display: block;
+    background-color: #3f4344;}
 
 
+.fixed_header thead th {
+    border: 1px solid white;
+    background-color:inherit;width:35%;
+}
 
 </style>
 {% endblock %}
@@ -34,32 +39,20 @@
 {% endblock %}
 <!----// -HEADER----->
 
-
 <!-----SECTION------->
 {% block section1 %}
 <div class= "row"> 
 <div class="overzicht">
     <table id="table_1" class="fixed_header">
-        <thead>
+         <thead>
             <tr id="header_row">
-                <th> Prijsoverzicht </th>
-            </tr>
-        </thead>
-
-        <tbody id="tbody">
-            
-            <tr>
                 <th> Training </th>
                 <th> Aantal </th>
                 <th> Prijs </th>
                 <th> Tijdsbestek </th>
             </tr>
-            <tr>
-                <td>Kennismaking</td>
-                <td>1 sessie </td>
-                <td>gratis</td>
-                <td>30 min</td>
-            </tr>
+        </thead>
+        <tbody id="tbody">          
             <tr>
                 <td>Individueel</td>
                 <td>1 op 1 </td>

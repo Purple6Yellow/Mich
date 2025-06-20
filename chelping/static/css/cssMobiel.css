@@ -34,7 +34,7 @@ a:hover, button a:hover{color:#ff9bb3;}
 .menublock{height:100px;}
 .bannerblock{height:80px;} 
 
-.row{display:inline-block;width:100%;background-color:blue;}
+.row{display:inline-block;width:100%;background-color:inherit;}
 [class*="col-"]{display: inline-block;text-align: center;}
 .col-4,.col-6,.col-12,.col-25,.col-30,.col-40{width:100%;}  
 iframe{width: 100%;}
@@ -125,6 +125,36 @@ ol,ul,li{font-size:14px;color: inherit}
 .path a{color:#3f4344;}
 /*--// INDEX----------------------mobiel----------------------------------------------------------------------------------*/
 
+/*--   TARIEVEN----------------------------mobiel---------------------------------------------------------------------*/
+.overzicht{margin:3% 2% 2% 0%;background-color:inherit;width:100%;height:auto;}
+.fixed_header{background-color:inherit;   
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width:90%;} 
+
+.fixed_header tr:nth-child(even) {background-color: #f2f2f2;}
+.fixed_header tr:nth-child(odd) {background-color: #f4dfdf;}
+.fixed_header tr:hover {background-color: #ff7b6f;}
+
+.fixed_header tbody {display: block;
+    width: 100%;
+    overflow: auto;
+    height: auto;} 
+
+.fixed_header tbody td, .fixed_header tbody th {
+    border: 1px solid gray;
+    background-color:inherit;
+    width:35%;}
+
+.fixed_header tbody th { background-color:#3f4344;color:white;}
+.fixed_header thead th { background-color: #3f4344;display: block;color: white;}
+   }
+.fixed_header th,.fixed_header td {
+    padding: 6px;
+    text-align: left;}
+
+/*--// TARIEVEN----------------------------mobiel---------------------------------------------------------------------*/
 
 
 
@@ -139,10 +169,7 @@ ol,ul,li{font-size:14px;color: inherit}
 
 
 
-/*--OVERSBWE----------------------------mobiel-----------------------------------------------------------------*/
-.opmaak-sbwe{padding:5% 5% 5% 5%;}
-.opmaak-sbwe img{clip-path: inset(0% 0% round 20px);width:80%;}
-/*--// OVERSBWE-------------------------mobiel-----------------------------------------------------------------*/
+
 
 /*--CONTACT----------------------------Mobiel---------------------------------------------------------------------*/
 .contact-opmk{line-height: 2.0;padding:0 2% 0 2%;}
@@ -206,10 +233,10 @@ border-radius: 0%; ronding van de lijn
 /*--VOLGORDE---------------------------------------------------------------------------------------------------------------*/
 /* ALGEMEEN ZELFDE: LETTER > MATEN > DIVERS > LETTERTYPE
 ALGEMEEN VERSCHILLEND: 
-BASIS > 
+BASIS > INDEX > TARIEVEN
 
 
-MENU > INDEX > 
+MENU > 
 
 */ 
 /* // --VOLGORDE-----------------------------------------------------------------------------------------------------------*/
