@@ -3,6 +3,11 @@
 <!--------HEAD----->
 {% block styles %}
 <style>
+    .RT img{clip-path: inset(0 0 round 20px);width:80%;}
+    .RT_tekst{padding:3% 5% 3% 5%;}
+    .training-tekst1, .training-tekst2 {text-align: left;}
+    .trainS{height:10%;background-color: #ff9bb3; clip-path: inset(0 0 round 20px);}
+    .trainS img{width:100%;}
 </style>
 {% endblock %}
 <!--------HEAD----->
@@ -16,13 +21,46 @@
 <!-----//---BANNER--->
 <!-----HEADER-------->
 {% block header %}
-<div class = "row">
-    <div class="font-20B headertitel"> Remedial teaching </div>
-    <div class = "headerveld"> 
+<div class = "row"><div class="font-20B headertitel"> Remedial teaching </div> </div>
+<!---->
+<div class = "row"> 
+    <div class = "col-6 RT"> 
+        <a href="/trainingen/nederlands.html">  <img src="{% static 'img/RT.jpg' %}" alt="">   </a> 
+    </div>
+    <div class = "col-6 RT_tekst">
         “Ik bied op maat gemaakte remedial 
         teaching aan voor leerlingen die moeite hebben met rekenen of taal. De lessen zijn altijd 
         afgestemd op de specifieke behoeften en leerstijl van het kind.”
-    </div> 
+    </div>
 </div>
+
+
+<!---->
+<div class = "row"> 
+    <div class = "training-tekst1"> 
+        <strong>RT Nederlands (taal en spelling): </strong> <br> <br>
+        Bij RT Nederlands help ik kinderen en jongeren stap voor stap met het verbeteren van hun taalvaardigheden. Dit kan gaan over:
+        <ul>
+            <li>Spelling en grammatica: De regels leren en toepassen, zodat schrijven makkelijker wordt.</li>
+            <li>Begrijpend lezen: Teksten beter begrijpen en er vragen over kunnen beantwoorden.</li>
+            <li>Woordenschat en taalgevoel: Nieuwe woorden leren en taal gebruiken in de juiste context.</li>
+            <li> Schrijfvaardigheid: Helpen om duidelijk en correct te leren schrijven.</li>
+        </ul>
+    </div>
+</div>
+<!---->
+<div class = "row"> 
+    <div class = "training-tekst2"> 
+        <strong>RT Rekenen (basisschoolniveau): </strong> <br> <br>
+        Bij RT rekenen ondersteunen we kinderen die extra hulp nodig hebben om rekenen beter onder de knie te krijgen. We werken aan:
+        <ul>
+            <li>Basisvaardigheden: Optellen, aftrekken, vermenigvuldigen en delen.</li>
+            <li>Automatiseren: Rekenen wordt sneller en makkelijker door veel te oefenen.</li>
+            <li>Probleemoplossend rekenen: Rekenen toepassen in situaties uit het dagelijks leven.</li>
+            <li>Zelfvertrouwen in rekenen: Zorgen dat je minder bang wordt voor moeilijke sommen.</li>
+        </ul>
+    </div>
+</div>
+<!---->
 {% endblock %}
 <!----// -HEADER----->

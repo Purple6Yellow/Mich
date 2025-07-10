@@ -59,6 +59,7 @@ iframe{width: 100%;}
   z-index:100;}
 .retour:hover {transform: translateX(-2px);}
 .retour:active {transform: translateX(0);}
+.padding{padding:5% 2% 2% 2%;}
 /*------------------------------------------------------------------------// DIVERS */
 
 /* -----------------------------------------------------------------------LETTERTYPE */
@@ -108,24 +109,23 @@ ol,ul,li{font-size:14px;color: inherit}
     .menuMobiel{display:none;} /* wordt gebruikt voor javascipt, zie ook MENU */
     #menuMobiel{background-color: inherit;}      
 /*---// BASIS-------------------------------------------------------------------------------------------------------------*/
-
 /*--INDEX-------------------------mobiel----------------------------------------------------------------------------------*/
-.train, .trainli{width:80%;background-color: #ff9bb3; clip-path: inset(0 0 round 20px);margin: 5% 5% 5% 5%; padding:5% 10% 20% 10%;max-height:300px;}
-.trainli{margin-left: 10%;}
+.train, .trainli{width:80%;background-color: #ff9bb3; clip-path: inset(0 0 round 20px);margin: 5% 5% 5% 10%; padding:5% 10% 20% 10%;max-height:300px;}
 .train img, .trainli img{width:100%;clip-path: inset(0 0 round 20px);}
 .train a, .trainli a{color:#3f4344;}
 .profiel{clip-path: circle(35%);width:70%;margin: 0 0 0 15%;}
 .profiel img{width:100%;}
 .path{clip-path: inset(0% 0% round 20px); 
-    background-color: white;width: 250px; height:70px;
+    background-color: white;width: 60%; height:50px;
     display:flex;align-items:center;justify-content: center;
-    position:relative;top:0%;left:30%; transform:translate(0%, 100%); ;}
-.border-span{
+    margin:20%;}
+.border-span{ /* gekoppeld aan path */
     clip-path: inset(0% 0% round 20px); 
-    background-color:#3f4344;width: 245px; height:65px;
-    color:white;}
+    background-color:#3f4344;width: 95%; height:45px;
+    color:white;padding:2% 5% 2% 5%}
 .path a{color:#ff7b6f;}
 /*--// INDEX----------------------mobiel----------------------------------------------------------------------------------*/
+
 
 /*--   TARIEVEN----------------------------mobiel---------------------------------------------------------------------*/
 .overzicht{margin:3% 2% 2% 0%;background-color:inherit;width:100%;height:auto;}
@@ -151,73 +151,12 @@ ol,ul,li{font-size:14px;color: inherit}
 
 .fixed_header tbody th { background-color:#3f4344;color:white;}
 .fixed_header thead th { background-color: #3f4344;display: block;color: white;}
-   }
+
 .fixed_header th,.fixed_header td {
     padding: 6px;
     text-align: left;}
 
 /*--// TARIEVEN----------------------------mobiel---------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--CONTACT----------------------------Mobiel---------------------------------------------------------------------*/
-.contact-opmk{line-height: 2.0;padding:0 2% 0 2%;}
-.contact-verd{height:10%;}
-/*--// CONTACT-------------------------Mobiel---------------------------------------------------------------------*/
-/*--BARTHKAPELverhuur----------------------Mobiel----------------------------------------------------------------*/
-.bk-container{background-color:inherit;text-align:center;}
-.bk-container img {width:100%;margin: 0 0 0 0; clip-path: inset(0% 0% round 20px);}
-/*--// BARTHKAPELverhuur--------------mobiel---------------------------------------------------------------------*/
-/*--PANDEN----------------------------mobiel---------------------------------------------------------------------*/
-.pand-container{background-color:inherit;text-align:center;max-height:35%;min-height:35%;}
-.pand-container img, .pand-containerP img {width:100%; clip-path: inset(0% 0% round 20px)}
-.foto_portrait {background-color: inherit;padding:1% 0 1% 2%;}
-.foto_portrait img{max-height: 400px; width:80%;margin: 0 0 0 10%; clip-path: inset(0% 0% round 20px);}
-/*--// PANDEN----------------------------mobiel------------------------------------------------------------------*/
- /*--VOORWAARDEN (CCINRICHITNG)--------------------------mobiel------------------------------------------------------------------*/
-.an-container, .cc-container{background-color:inherit;width:100%;align-items: center;margin: 0 0 0 0%; padding: 3% 0 0 0;}
-.an-container li {padding:0;line-height:2.0;list-style:circle outside;text-align: left;}
-.an-container ol {padding:0;line-height:2.0;list-style: inside;text-align: left;}
-.an-container ul li ul li{padding:0 0 0 5%;line-height:2.0;list-style:none;text-align: left;} /* 2e opsommingsniveau */
-.an-container ul li ul li::before{content:"\27A4";position:absolute;left:20%;}
-
-.cc-container img {width:100%;margin: 0 0 0 0; clip-path: inset(0% 0% round 20px);}
-/*--// VOORWAARDEN-----------------------mobiel------------------------------------------------------------------*/
-/*--PROGRAMMA & ATELIERS----------------------------Mobiel--------------------------------------------------------*/
-.prog {background-color: inherit;text-align: center; padding: 0 0 2% 0; }
-.prog-container{background-color: inherit;padding:0% 0 2% 0%;}
-.prog-container img{width:99%; clip-path: inset(0 0 round 20px);margin: 0% 0 5% 0;} 
-/*--// PROGRAMMA & ATELIERS-------------------------Mobiel--------------------------------------------------------*/
-/*----FORMULIER RESERVERING/WACHTLIJST---------------------------Mobiel-------------------------------------------*/
-.form{align-items:center;margin: 0% 0 0 0%;background-color:inherit;}
-.form2{margin:0% 0 0 2%;text-align: left;background-color:inherit;} /*lange tekst/vraag */
-.form_box{align-items: center;margin: 0% 0 0 0%;background-color:inherit;}
-.button_formulier{ width: auto;height:auto;margin: 0 0 2% 70%;clip-path: inset(0% 0% round 20px);}
-
-#popup{display:none;position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #dff0d8;
-    border: 1px solid #3c763d;
-    padding: 20px;
-    z-index: 1000;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);}
-/*--//  FORMULIER RESERVERING/WACHTLIJST-------------------------Mobiel--------------------------------------------*/
 
 
 /*--UITLEG---------------------------------------------------------------------------------------------------------------*/
@@ -236,23 +175,7 @@ border-radius: 0%; ronding van de lijn
 /* ALGEMEEN ZELFDE: LETTER > MATEN > DIVERS > LETTERTYPE
 ALGEMEEN VERSCHILLEND: 
 BASIS > INDEX > TARIEVEN
-
-
-MENU > 
-
 */ 
 /* // --VOLGORDE-----------------------------------------------------------------------------------------------------------*/
-
-}
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -61,54 +61,21 @@ ol,ul,li{font-size:18px;color:inherit; background-color:inherit;}
 .box-tekst{margin:3% 1% 1% 2%;} 
 .boxre img {width: 100%; margin:0 0 -20% 0%;}
 .boxli img {width:100%; margin:0 0 -10% 0;}
+
+.trainli{margin-left: 10%;}
+.trainli img{width:100%;}
+.profiel img{width:100%;}
+.path{clip-path: inset(0% 0% round 20px); 
+    background-color: white;width: 250px; height:20%;
+    display:flex;align-items:center;justify-content: center;
+    position:relative;top:0%;left:0%; transform:translate(10%, -50%); ;}
+.border-span{ /* gekoppeld aan path */
+    clip-path: inset(0% 0% round 20px); 
+    background-color:#3f4344;width: 245px; height:80%;
+    color:white;}
 /*--// INDEX --------------------------Laptop---------------------------------------------------------------------*/
-/*--CONTACT----------------------------laptop---------------------------------------------------------------------*/
-.contact-verd{height:3%;}
-/*--// CONTACT-------------------------laptop---------------------------------------------------------------------*/
-/*--BARTHKAPELverhuur----------------------Laptop-----------------------------------------------------------------*/
-.bk-container{background-color:inherit;text-align:center;justify-content: center;vertical-align:center;}
-.bk-container img {width:96%;margin-left:2%;margin-right:2%;}
-.bk-container iframe {width:100%;height:400px;margin:-2% 0% -6% 0%;}
-/*--// BARTHKAPELverhuur----------------------Laptop--------------------------------------------------------------*/
-/*--VOORWAARDEN-------------------------------Laptop--------------------------------------------------------------*/
-.an-container{background-color:inherit;width:70%;align-items: center;margin: 0 0 0 15%; padding:0% 0 0 0%;}
-.an-container li {padding:0;line-height:2.0;list-style:circle outside;text-align: left;}
-.an-container ol {padding:0;line-height:2.0;list-style: inside;text-align: left;}
-/*--// VOORWAARDEN----------------------------Laptop--------------------------------------------------------------*/
-/*--CC INRICHTING-------------------------------Laptop--------------------------------------------------------------*/
-.cc-container{background-color:inherit;width:90%;align-items: center;margin: 0 0 3% 5%; padding:6% 0 0 0%;}
-.cc-container-tekst{width:100%;text-align:left;margin:0 0 3% 3%;}
-.cc-container li {padding:0;line-height:2.0;list-style:circle outside;text-align: left;}
-.cc-container ol {padding:0;line-height:2.0;list-style: inside;text-align: left;}
-/*--// CC INRICHTING----------------------------Laptop--------------------------------------------------------------*/
-
-/*--PROGRAMMA & ATELIERS----------------------Laptop--------------------------------------------------------------*/
-.prog-container{background-color: inherit;padding:5% 0 0 5%;}
-.prog-container img{width:100%;clip-path: inset(0% 0% round 20px);}
-.prog {background-color: inherit;padding:2% 2% 2% 0%;}
-/*--// PROGRAMMA & ATELIERS-------------------Laptop--------------------------------------------------------------*/
-/*--PANDEN----------------------------Laptop-----------------------------------------------------------------*/
-.pand-container{background-color:inherit;text-align:center;max-height:35%;min-height:35%;}
-.pand-container img {width:96%;max-height: 300px;margin: 1% 2% 1% 2%;}
-.pand-containerP img {width:96%;margin: 1% 2% 1% 2%;} /*alleen looijer ivm portrait ipv landscape */
-
-.pand_Htitel{width:100%; margin:1% 0% 0% 0%;text-align:center;}
-.pand_tekst{width:80%; margin:1% 10% 1% 10%;}
-
-.pand_adres{margin:5% 0% 0% 0%;text-align:center;background-color:inherit;}
-
-.foto_portrait {background-color: inherit;padding:1% 0 1% 0%;}
-.foto_portrait img{width:14%;clip-path: inset(0% 0% round 20px);}
-/*--// PANDEN-------------------------Laptop-----------------------------------------------------------------*/
-/*----FORMULIER RESERVERING/WACHTLIJST---------------------------Laptop---------------------------------------------------*/
-.form, .form2{margin: 1% 0 0 20%;background-color:inherit;text-align: left;}
-.form_box{margin: 1% 0 0 0%;background-color:inherit;}
-.button_formulier{ width:auto;height:auto;margin: 0 0 2% 80%;clip-path: inset(0% 0% round 20px);}
-/*--//  FORMULIER RESERVERING/WACHTLIJST-------------------------Laptop---------------------------------------------------*/
-
 
 }
-
 /* VOLGORDE
 ALGEMEEN_LAPTOP > BASIS > INDEX > CONTACT > BK VERHUUR> VOORWAARDEN > CCINRICHTING
 PROGRAMMA/ATELIERS > Panden > Formulier reservering/wachtlijst
