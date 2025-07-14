@@ -63,8 +63,9 @@ ol,ul,li{font-size:18px;color:inherit; background-color:inherit;}
 .boxli img {width:100%; margin:0 0 -10% 0;}
 
 .trainli{margin-left: 10%;}
-.trainli img{width:100%;}
-.profiel img{width:100%;}
+.fotoA{padding:0% 5% 5% 5%;clip-path:inset(0% 0% round 20px);}
+.fotoA img{width:80%;margin-top:5%;}
+
 .path{clip-path: inset(0% 0% round 20px); 
     background-color: white;width: 250px; height:20%;
     display:flex;align-items:center;justify-content: center;

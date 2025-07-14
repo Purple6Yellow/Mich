@@ -3,39 +3,46 @@ from django.utils import timezone
 ########## NIVEAU #############
 NIVEAU = [
     ('Basisschool', [
-        ('0','groep 3'),
-        ('1','groep 4'),
-        ('2','groep 5'),
-        ('3','groep 6'),
-        ('4','groep 7'),
-        ('5','groep 8'),
+        ('basisschool:groep 3','groep 3'),
+        ('basisschool:groep 4','groep 4'),
+        ('basisschool:groep 5','groep 5'),
+        ('basisschool:groep 6','groep 6'),
+        ('basisschool:groep 7','groep 7'),
+        ('basisschool:groep 8','groep 8'),
 ]),
     ('Vmbo', [
-        ('0','basis'),
-        ('1','kader'),
-        ('2','mavo'),
+        ('vmbo:basis','basis'),
+        ('vmbo:kader','kader'),
+        ('vmbo:mavo','mavo'),
 ]),
     ('Havo', [
-        ('0','1e klas'),
-        ('1','2e klas'),
+        ('havo 1e klas','1e klas'),
+        ('havo, 2e klas','2e klas'),
         #('2','3e klas'),
 ]),
-    ('Vwo', [
-        ('0','1e klas'),
+    ('vwo', [
+        ('vwo, 1e klas','1e klas'),
         #('1','2e klas'),
 ]),
     ]
 ########## TRAINING #############
 TRAINING =[
-    ('KM', 'Kennismakingsgesprek'),
-    ('RT', 'Remidial teaching'),
-    ('LL', 'Leer Leren'),
+    ('een kennismakingsgesprek', 'Kennismakingsgesprek'),
+    ('de Remidial Teaching training', 'Remidial teaching'),
+    ('de training "Ik leer leren"', 'Leer Leren'),
 ]
 ########## LEEFTIJD #############
 LEEFTIJD = [
+    ('5', '5 jaar'),
+    ('6', '6 jaar'),
+    ('7', '7 jaar'),
+    ('8', '8 jaar'),
+    ('9', '9 jaar'),
     ('10', '10 jaar'),
     ('11', '11 jaar'),
-    ('12', '12 jaar')
+    ('12', '12 jaar'),
+    ('13', '13 jaar'),
+    ('14', '14 jaar'),
 ]
 
 # CONTACTFORMULIER #

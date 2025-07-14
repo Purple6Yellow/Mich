@@ -3,17 +3,6 @@
 <!--------HEAD----->
 {% block styles %}
 <style>
-.form80{width:100%;}
-.veld, .veld1{width:200px !important; height:30px; background-color:#ffdce2;border-radius: 6px solid #ffdce2;color:#ff7b6f;position:relative;top:0px; transform:translate(0%, -40%);}
-.custum-class{width:200px !important;accent-color:red;}
-.form{background-color: inherit;text-align:left;margin:2% 0 0 30%;height:30px;}
-.form_box{background-color: inherit;text-align: left;margin:2% 0 0 -10%;height:30px; }
-.button_formulier{margin-left:80%;}
-
-.sectionblock1{background-color:#ff7b6f;color:inherit; }
-.sectionblock2{background-color:#3f4344;color:#ff7b6f; }
-.sectionblock3{background-color:#ff7b6f;color:#3f4344;}
-.sectionblock4{background-color:#ff9bb3;color:inherit; }
 </style>
 {% endblock %}
 <!--------HEAD----->
@@ -49,10 +38,8 @@
 {% csrf_token %}
 <!----> 
 <div class ="row">
-    <div class = "form80">
-        <div class = "col-4 form">{{ co_form.naam.label_tag }} </div>
-        <div class = "col-4 form_box">{{ co_form.naam }} </div>
-    </div>
+    <div class = "col-4 form">{{ co_form.naam.label_tag }} </div>
+    <div class = "col-4 form_box">{{ co_form.naam }} </div>
 </div>
 <!----> 
 <div class ="row">

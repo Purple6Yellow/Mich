@@ -38,8 +38,7 @@ class Form_Co (forms.ModelForm):
                 f"naam: {naam}\n"
                 f"Mijn emailadres: {email}\n"
                 f"Mijn telefoonnummer: {telefoon}\n\n"
-                f"Mijn niveau is  {niveau}\n en ik ben {leeftijd} oud."
-                f"Ik heb het privacy reglement "" gelezen" )
+                f"Mijn niveau is  {niveau} en ik ben {leeftijd} jaar oud. \n" )
     
- 
+
 
