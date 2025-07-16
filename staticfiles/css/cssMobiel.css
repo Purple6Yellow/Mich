@@ -1,0 +1,188 @@
+@media only screen and (min-device-width: 150px){
+/*---ALGEMEEN -ZELFDE OVERAL ----------------------------------------------------------------------------------------------*/
+.sectionblock0, .sectionblock1,.sectionblock2,.sectionblock3,.sectionblock4{width:100%; margin-top:3%;clip-path: inset(0% 0% round 20px);}
+
+.menublock{width:100%;position:absolute;top:0%;right:0px;}
+.bannerblock{width:100%;clip-path: inset(0% 0% round 20px);} 
+.bannerblock img{width:100%; margin: 0% 0 -3% 0; height: 100%;}
+.headerblock{background-color:inherit;border: 0px solid #182A3A;width:100%; height:100%;margin:3% 0 0% 0;clip-path: inset(0% 0% round 20px);}
+.banner_txtblock{width:80%;position:relative;opacity:80%;top:0px;transform:translate(0%,0%);z-index:20;text-align: left;margin:0 0 0 1%;}
+.footerblock{background-color:#3f4344;width:100%; height:100%;margin-top:3%;padding: 1% 1% 1% 1%;clip-path: inset(0% 0% round 20px);color:white;}
+/* ------------------------------------------------------------------------KLEUREN */
+body{color:#3f4344;background-color:#ffdce2; }
+[class*= "font-"] {color:#3f4344;}
+/**/
+.bannerblock{background-color: white;}
+.sectionblock0{background-color:inherit;}
+.sectionblock1{background-color:#ff7b6f;color:inherit; }
+.sectionblock2{background-color:#3f4344;color:#ff7b6f; }
+.sectionblock3{background-color:#ff7b6f;color:#3f4344;}
+.sectionblock4{background-color:#ff9bb3;color:inherit; }
+
+/**/
+.font-20B{color:#182A3A;}
+a{color:#ff7b6f;text-decoration:none;}
+button a{color:#2B3E4F;text-decoration: none;}
+.button_formulier{color:white;background-color:#3f4344; border:2px solid inherit;}
+.menu a {color:#f44d7b;}
+ol, ul, li{color:inherit;}
+a:hover, button a:hover{color:#ff9bb3;}
+.menu a:hover{color:#3f4344;}
+.color1{color:#D6BB80;}
+.retour:hover { background-color: #ff9bb3;}
+/*-----------------------------------------------------------------------// KLEUREN */
+/* -----------------------------------------------------------------------    MATEN */
+.menublock{height:100px;}
+.bannerblock{height:80px;} 
+
+.row{display:inline-block;width:100%;background-color:inherit;}
+[class*="col-"]{display: inline-block;text-align: center;}
+.col-4,.col-6,.col-12,.col-25,.col-30,.col-40{width:100%;}  
+iframe{width: 100%;}
+
+/* ----------------------------------------------------------------------//   MATEN */
+/*-----------------------------------------------------------------------    DIVERS */
+.logo img{width:50%;}
+.TxtCenter{text-align: center;}
+.vorigeP,.volgendeP {text-decoration: none;z-index:50;}
+.vorigeP {width: 40px; height:30px; position:fixed; top: 50%; transform: translateY(-0%); left: 3%;background-color:#2B3E4F; clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);}
+.volgendeP {width: 40px; height:30px; position: fixed; top: 50%; transform: translateY(-0%); right: 3%; transform: translateX(0);background-color:#2B3E4F; clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);}
+.headertitel{text-align: center;padding: 0 0 1% 0;background-color:inherit;}
+.headerveld {line-height:1.5; width:100%;text-align:center;padding:0% 5% 2% 5%;margin:0 0 0 0;background-color:inherit;}
+.retour {
+  display: inline-flex;align-items: center;
+  padding: 10px 16px;border: none;
+  border-radius: 8px;cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.2s, transform 0.2s;
+  position:relative;top:0px;transform:translate(10%,-30%);
+  z-index:100;}
+.retour:hover {transform: translateX(-2px);}
+.retour:active {transform: translateX(0);}
+.padding{padding:5% 2% 2% 2%;}
+/*------------------------------------------------------------------------// DIVERS */
+
+/* -----------------------------------------------------------------------LETTERTYPE */
+body {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*---------------------------------------------------------------------// LETTERTYPE */
+/*--//-ALGEMEEN -ZELFDE OVERAL ------------------------------------------------------------------------------------------*/
+/*-----ALGEMEEN -VERSCHILLEND -------mobiel------------------------------------------------------------------------------*/
+.verbergenLap{display:inline-block;} 
+.verbergenMob{display:none;}/*Als scherm mobiel is, dan display niet zichtbaar */
+
+/*-------------------------------------------------------------------- LETTER MOBIEL--*/
+.menuMobiel li{font-size:30px;}
+.font-20B{font-size: 28px; font-weight: 500;} 
+.pand_Htitel{font-size: 28px;font-weight:500;}
+body{font-size:16px;line-height: 1.4;}
+.pand_tekst{font-size: 16px;}
+.font-10{font-size:16px;}
+ol,ul,li{font-size:14px;color: inherit}
+.retour {font-size: 12px;}
+.font-9{font-size:12px;color:inherit;}
+.an-container li{font-size:12px;}
+.form,.form2{font-size:12px;}
+.button_formulier{font-size:12px;}
+.box-titel{font-size:26px;font-weight: 600;}
+.box-tekst{font-size:16px} 
+/*-----------------------------------------------------------------------// LETTER--*/
+/*--//-ALGEMEEN VERSCHILLEND -------mobiel------------------------------------------------------------------------------*/
+/*---BASIS-------mobiel-------------------------------------------------------------------------------------------------*/
+*{box-sizing: border-box;}
+    .menuboven {background-color:inherit;}
+    .menu-container{background-color:inherit;width:50%;margin: 2% 0 0 50%;}
+    .menu-container li{list-style-type: none;}
+    .menu-container a{text-decoration: none;}
+    .menu{background-color: inherit;margin: 2% 2% 2% 2%;}
+    #menu-container{background-color:inherit;display:flex;overflow:auto;flex-direction: row; width:100%;margin: 0 0 0 0%;}   
+    .menu-container img{width:10%;position:absolute;left:85%;top:20%;}
+    .logo_foot{padding: 0 0 0 0%;background-color:inherit;align-items:center;}
+    .logo_foot img{width:10%;margin:0% 5% 0% 5%;} /*logo footer */
+/*menu*/
+    .menuMobiel{background-color:#f5f5dc; width: 100%; margin: 10% 0 0 0;}
+    .menuMobiel li{list-style-type: none;  text-align: center;padding: 10% 0 0% 0%;}  
+    .menuMobiel{display:none;} /* wordt gebruikt voor javascipt, zie ook MENU */
+    #menuMobiel{background-color: inherit;}      
+/*---// BASIS-------------------------------------------------------------------------------------------------------------*/
+/*--INDEX-------------------------mobiel----------------------------------------------------------------------------------*/
+.train, .trainli{width:80%;background-color: #ff9bb3; clip-path: inset(0 0 round 20px);margin: 5% 5% 5% 10%; padding:5% 10% 20% 10%;max-height:300px;}
+.train img, .trainli img{width:100%;clip-path: inset(0 0 round 20px);}
+.train a, .trainli a{color:#3f4344;}
+.profiel{clip-path: circle(35%);width:70%;margin: 0 0 0 15%;}
+.profiel img{width:70%;}
+.path{clip-path: inset(0% 0% round 20px); 
+    background-color: white;width: 60%; height:50px;
+    display:flex;align-items:center;justify-content: center;
+    margin:20%;}
+.border-span{ /* gekoppeld aan path */
+    clip-path: inset(0% 0% round 20px); 
+    background-color:#3f4344;width: 95%; height:45px;
+    color:white;padding:2% 5% 2% 5%}
+.path a{color:#ff7b6f;}
+/*--// INDEX----------------------mobiel----------------------------------------------------------------------------------*/
+/*--   TARIEVEN----------------------------mobiel---------------------------------------------------------------------*/
+.overzicht{margin:3% 2% 2% 0%;background-color:inherit;width:100%;height:auto;}
+.fixed_header{background-color:inherit;   
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width:90%;} 
+
+.fixed_header tr:nth-child(even) {background-color: #f2f2f2;}
+.fixed_header tr:nth-child(odd) {background-color: #f4dfdf;}
+.fixed_header tr:hover {background-color: #ff7b6f;}
+
+.fixed_header tbody {display: block;
+    width: 100%;
+    overflow: auto;
+    height: auto;} 
+
+.fixed_header tbody td, .fixed_header tbody th {
+    border: 1px solid gray;
+    background-color:inherit;
+    width:20%;}
+
+.fixed_header tbody th { background-color:#3f4344;color:white;}
+.fixed_header thead th { background-color: #3f4344;display: block;color: white;}
+
+.fixed_header th,.fixed_header td {
+    padding: 6px;
+    text-align: left;}
+
+/*--// TARIEVEN----------------------------mobiel---------------------------------------------------------------------*/
+/*--    CONTACT----------------------------mobiel---------------------------------------------------------------------*/
+.form{background-color: inherit;text-align:center;margin:2% 0 0 0%;height:30px;}
+.form_box{background-color: inherit;text-align: center;margin:2% 0 0 0%;height:30px; }
+
+.veld, .veld1{width:200px !important; height:30px; background-color:#ffdce2;border-radius: 6px solid #ffdce2;color:#ff7b6f;position:relative;top:0px; transform:translate(0%, -40%);}
+.custum-class{width:200px !important;accent-color:red;}
+
+.button_formulier{margin:0 0 2% 80%;}
+/*--//  CONTACT----------------------------mobiel---------------------------------------------------------------------*/
+
+
+/*--UITLEG---------------------------------------------------------------------------------------------------------------*/
+/* 
+translate(0%, -20%); horizontaal versus verticaal
+relative: vanaf linkerhoek in zijn rij. 
+absolute, vanaf rechterbovenhoek van beeldscherm
+margin:0% 0% 0% 0%; boven, rechts, onder, links
+padding:0 0 0 0%; 
+border:solid 0px rgb(7, 1, 31); lijn, dikte lijn, kleur lijn
+border-radius: 0%; ronding van de lijn
+*/
+/* // --UITLEG------------------------------------------------------------------------------------------------------------*/
+
+/*--VOLGORDE---------------------------------------------------------------------------------------------------------------*/
+/* ALGEMEEN ZELFDE: LETTER > MATEN > DIVERS > LETTERTYPE
+ALGEMEEN VERSCHILLEND: 
+BASIS > INDEX > TARIEVEN > CONTACT
+*/ 
+/* // --VOLGORDE-----------------------------------------------------------------------------------------------------------*/
+
+}

@@ -3,11 +3,7 @@
 <!--------HEAD----->
 {% block styles %}
 <style>
-    .RT img{clip-path: inset(0 0 round 20px);width:80%;}
-    .RT_tekst{padding:3% 5% 3% 5%;}
-    .training-tekst1, .training-tekst2 {text-align: left;}
-    .trainS{height:10%;background-color: #ff9bb3; clip-path: inset(0 0 round 20px);}
-    .trainS img{width:100%;}
+
 </style>
 {% endblock %}
 <!--------HEAD----->
@@ -27,18 +23,18 @@
     <div class = "col-6 RT"> 
         <a href="/trainingen/nederlands.html">  <img src="{% static 'img/LL.jpg' %}" alt="">   </a> 
     </div>
-    <div class = "col-6 RT_tekst">
-      Met deze training krijg je tools om slimmer te leren, waardoor je meer uit jezelf kunt halen op school én daarbuiten.
+    <div class = "col-6 RT_tekst font-10">
+      <em> Met deze training krijg je tools om slimmer te leren, waardoor je meer uit jezelf kunt halen op school én daarbuiten.  </em>
     </div>
 </div>
 
 
 <!---->
 <div class = "row"> 
-    <div class = "training-tekst1"> 
-       Bij de Ik leer leren training help ik kinderen en jongeren met het ontwikkelen van handige leer- en studievaardigheden. 
+    <div class = "RT_tekst font-10"> 
+       Bij de 'Ik leer leren' training help ik kinderen en jongeren met het ontwikkelen van handige leer- en studievaardigheden. 
        Dit zorgt ervoor dat leren makkelijker en overzichtelijker wordt. De training richt zich op:
-        <ul>
+        <ul  class = "training-tekst1 font-10">
             <li> <strong>Leren plannen:</strong> Je leert hoe je je huiswerk en studie zo indeelt dat je op tijd klaar bent.</li>
             <li> <strong> Overzicht creëren:</strong> Ik help je inzicht te krijgen in wat je moet doen, zodat je niet overweldigd raakt.</li>
             <li> <strong>Op tijd starten: </strong> Voorkomen dat je uitstelgedrag krijgt, zodat je zonder stress kunt werken.</li>

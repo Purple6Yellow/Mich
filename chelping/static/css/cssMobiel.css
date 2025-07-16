@@ -78,9 +78,9 @@ body {
 /*-------------------------------------------------------------------- LETTER MOBIEL--*/
 .menuMobiel li{font-size:30px;}
 .font-20B{font-size: 28px; font-weight: 500;} 
-.pand_Htitel{font-size: 28px;font-weight:500;}
+.Htitel{font-size: 28px;font-weight:500;}
 body{font-size:16px;line-height: 1.4;}
-.pand_tekst{font-size: 16px;}
+.subtekst{font-size: 16px;}
 .font-10{font-size:16px;}
 ol,ul,li{font-size:14px;color: inherit}
 .retour {font-size: 12px;}
@@ -158,12 +158,29 @@ ol,ul,li{font-size:14px;color: inherit}
 /*--    CONTACT----------------------------mobiel---------------------------------------------------------------------*/
 .form{background-color: inherit;text-align:center;margin:2% 0 0 0%;height:30px;}
 .form_box{background-color: inherit;text-align: center;margin:2% 0 0 0%;height:30px; }
+input::placeholder {color: #ff7b6f;}
 
 .veld, .veld1{width:200px !important; height:30px; background-color:#ffdce2;border-radius: 6px solid #ffdce2;color:#ff7b6f;position:relative;top:0px; transform:translate(0%, -40%);}
-.custum-class{width:200px !important;accent-color:red;}
+.custum-class{width:200px !important;accent-color:#ff7b6f;}
 
 .button_formulier{margin:0 0 2% 80%;}
 /*--//  CONTACT----------------------------mobiel---------------------------------------------------------------------*/
+/*--   TRAINING-------mobiel------------------------------------------------------------------------------*/
+.RT img{clip-path: inset(0 0 round 20px);width:80%;}
+.RT_tekst{padding:3% 5% 3% 5%;text-align: left;}
+
+.training-tekst1 {text-align: left;background-color:inherit;}
+
+/*--// TRAINING-------mobiel------------------------------------------------------------------------------*/ 
+
+
+
+/*--VOLGORDE---------------------------------------------------------------------------------------------------------------*/
+/* ALGEMEEN ZELFDE: LETTER > MATEN > DIVERS > LETTERTYPE
+ALGEMEEN VERSCHILLEND: 
+BASIS > INDEX > TARIEVEN > CONTACT > TRAINING
+*/ 
+/* // --VOLGORDE-----------------------------------------------------------------------------------------------------------*/
 
 
 /*--UITLEG---------------------------------------------------------------------------------------------------------------*/
@@ -177,12 +194,4 @@ border:solid 0px rgb(7, 1, 31); lijn, dikte lijn, kleur lijn
 border-radius: 0%; ronding van de lijn
 */
 /* // --UITLEG------------------------------------------------------------------------------------------------------------*/
-
-/*--VOLGORDE---------------------------------------------------------------------------------------------------------------*/
-/* ALGEMEEN ZELFDE: LETTER > MATEN > DIVERS > LETTERTYPE
-ALGEMEEN VERSCHILLEND: 
-BASIS > INDEX > TARIEVEN > CONTACT
-*/ 
-/* // --VOLGORDE-----------------------------------------------------------------------------------------------------------*/
-
 }

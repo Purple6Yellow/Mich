@@ -1,0 +1,84 @@
+@media only screen and (min-device-width: 899px){
+
+/*--LAPTOP ALGEMEEN------------------------Laptop---------------------------------------------------------------*/
+.verbergenLap{display:none;}
+.verbergenMob{display:inline-block;}
+.bannerblock{width:100%; height:300px;clip-path: inset(0% 0% round 20px);}
+.headerblock{margin: 0% 0 0% 0;background-color:inherit;}
+.margin{margin:5% 5% 5% 5%;}
+.padding{padding:5% 2% 2% 2%;}
+/*----*/
+/* -----------------------------------------------------------------------    MATEN */
+.menublock{height:100px;}
+.bannerblock{height:200px;} 
+.row{display:inline-block;width:100%;background-color: inherit;}
+[class*="col-"]{float:left;}
+.col-4{width:33.33%;}
+.col-6{width:50%;background-color:inherit;}
+.col-12{width:100%;}
+.col-25{width: 25%;}
+.col-30{width:30%;}
+.col-40{width:40%;}
+iframe{width: 100%;height:400px;}
+/* ----------------------------------------------------------------------//   MATEN */
+
+/*------------------------------------------------------LETTER LAPTOP--*/
+.font-20B{font-size: 34px; font-weight: 600;} 
+.pand_Htitel{font-size: 34px;font-weight:600;}
+.menu a {font-size:26px;font-weight: 300;}
+body{font-size:26px;line-height: 1.8;}
+.pand_tekst{font-size: 26px;}
+.font-10{font-size:26px;}
+.banner_txtblock{font-size:20px;}
+.form,.form2{font-size:20px;}
+.an-container ol, .an-container ul,.an-container li{font-size:26px;}
+ol,ul,li{font-size:18px;color:inherit; background-color:inherit;}
+.retour {font-size: 14px;}
+.font-9 {font-size:14px;color:inherit;}
+.button_formulier{font-size:14px;}
+.box-titel{font-size:20px;font-weight: 600;}
+.box-tekst{font-size:19px}
+[class*="clip-"]{font-size: 12px;}
+/*--//-------------------------------------------------LETTER--*/
+
+/*--// LAPTOP ALGEMEEN---------------------Laptop-----------------------------------------------------------------*/
+/*--BASIS----------------------------------Laptop-G---------------------------------------------------------------*/
+*{box-sizing: border-box;}*/
+.menuboven {background-color:inherit;}
+.menu-container{background-color: inherit;width:60%; margin: 1% 0 0 39%;}
+.menu-container li{list-style-type: none;width:100%;padding:2% 0 0 0%;}
+.menu-container a{text-decoration: none;}
+.menu{background-color: inherit; padding: 0 0 5% 1%; margin: 1% 0% 1% 3%;z-index:10;}
+#menu-container{background-color:inherit;display:flex;overflow:auto;flex-direction: row; width:100%;margin: 0 0 0 0%;}   
+
+.logo_foot{padding: 0 0 0 0%;background-color:inherit;align-items: center;}
+.logo_foot img{width:10%;margin:0% 5% 0% 5%;} /*logo footer */
+/*--// BASIS------------------------------------------------------------------------------------------------------*/
+/*---- INDEX --------------------------Laptop---------------------------------------------------------------------*/
+[class*="clip-"]{width: 80px; height: 80px; margin: 3% 0 0 0}
+.box{text-align: center;padding:1% 1% 1% 1%;margin: 0% 0 0 0;}
+.box-titel{margin:1% 1% 1% 1%;}
+.box-tekst{margin:3% 1% 1% 2%;} 
+.boxre img {width: 100%; margin:0 0 -20% 0%;}
+.boxli img {width:100%; margin:0 0 -10% 0;}
+
+.trainli{margin-left: 10%;}
+.fotoA{padding:0% 5% 5% 5%;clip-path:inset(0% 0% round 20px);}
+.fotoA img{width:80%;margin-top:5%;}
+
+.path{clip-path: inset(0% 0% round 20px); 
+    background-color: white;width: 250px; height:20%;
+    display:flex;align-items:center;justify-content: center;
+    position:relative;top:0%;left:0%; transform:translate(10%, -50%); ;}
+.border-span{ /* gekoppeld aan path */
+    clip-path: inset(0% 0% round 20px); 
+    background-color:#3f4344;width: 245px; height:80%;
+    color:white;}
+/*--// INDEX --------------------------Laptop---------------------------------------------------------------------*/
+
+}
+/* VOLGORDE
+ALGEMEEN_LAPTOP > BASIS > INDEX > CONTACT > BK VERHUUR> VOORWAARDEN > CCINRICHTING
+PROGRAMMA/ATELIERS > Panden > Formulier reservering/wachtlijst
+
+VOLGORDE */ 

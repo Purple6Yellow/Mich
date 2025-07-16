@@ -3,20 +3,20 @@ from django.utils import timezone
 ########## NIVEAU #############
 NIVEAU = [
     ('Basisschool', [
-        ('basisschool:groep 3','groep 3'),
-        ('basisschool:groep 4','groep 4'),
-        ('basisschool:groep 5','groep 5'),
-        ('basisschool:groep 6','groep 6'),
-        ('basisschool:groep 7','groep 7'),
-        ('basisschool:groep 8','groep 8'),
+        ('basisschool: groep 3','groep 3'),
+        ('basisschool: groep 4','groep 4'),
+        ('basisschool: groep 5','groep 5'),
+        ('basisschool: groep 6','groep 6'),
+        ('basisschool: groep 7','groep 7'),
+        ('basisschool: groep 8','groep 8'),
 ]),
     ('Vmbo', [
-        ('vmbo:basis','basis'),
-        ('vmbo:kader','kader'),
-        ('vmbo:mavo','mavo'),
+        ('vmbo: basis','basis'),
+        ('vmbo: kader','kader'),
+        ('vmbo: tl-mavo','tl-mavo'),
 ]),
     ('Havo', [
-        ('havo 1e klas','1e klas'),
+        ('havo, 1e klas','1e klas'),
         ('havo, 2e klas','2e klas'),
         #('2','3e klas'),
 ]),

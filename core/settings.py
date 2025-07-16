@@ -131,3 +131,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+## EMAIL ##
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.antagonist.nl'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'info@chelping.nl'
+EMAIL_HOST_PASSWORD = '@@@1234999978919999'
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'info@chelping.nl'

@@ -68,7 +68,7 @@
 </div> 
 <!----> 
 <div class="row">
-    <button type ="submit" name = "submitted" class = "button_formulier" value = "true"> Verzenden  </button>
+    <button type ="submit" name = "submitted" class = "button_formulier" value = "true" id = "verzendknop"> Verzenden  </button>
 </div>
 <!-------sluiting formulier----> 
 </form>
@@ -78,10 +78,16 @@
 <!-----//---SECTION----->
 
 
+<!-----SCRIPTS-------->
+{% block footer_scripts %}
+<!------- Inschrijfformulier wachtlijst ---------->
+    {% if popup %}
+        <script>alert('Niet alle velden zijn goed ingevuld.')</script>
+    {% endif %}
+<!------- validatie formulier ---------->
+<script src="{% static 'js/eigenontwerp/validatie.js' %}"></script>
 
-<!-----SECTION-------->
-{% block section3 %}
 {% endblock %}
-<!--//-SECTION-------->
+<!-----// SCRIPTS----->
 
 

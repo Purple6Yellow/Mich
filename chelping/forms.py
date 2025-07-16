@@ -13,12 +13,12 @@ class Form_Co (forms.ModelForm):
             'leeftijd':'Leeftijd',
             'niveau':'Niveau'} 
         widgets = {
-            'naam': forms.TextInput (attrs={'class': 'form-select veld', 'placeholder': 'Naam',}),
-            'email': forms.TextInput (attrs={'class': 'form-select veld', 'placeholder': 'Email'}),
-            'telefoon': forms.TextInput (attrs={'class': 'form-select veld','placeholder': 'Telefoon',}),
-            'leeftijd': forms.Select (attrs={'class': 'veld', 'placeholder': '??'}),
-            'niveau': forms.Select (attrs={'class': 'veld1'}),
-            'training': forms.Select (attrs={'class': 'veld1' })
+            'naam': forms.TextInput (attrs={'class': 'form-select veld', 'placeholder': 'Naam', 'id':'naam'}),
+            'email': forms.TextInput (attrs={'class': 'form-select veld', 'placeholder': 'Email', 'id':'email'}),
+            'telefoon': forms.TextInput (attrs={'class': 'form-select veld','placeholder': 'Telefoon','id':'telefoon'}),
+            'leeftijd': forms.Select (attrs={'class': 'veld', 'id':'leeftijd'}),
+            'niveau': forms.Select (attrs={'class': 'veld1','id': 'niveau'}),
+            'training': forms.Select (attrs={'class': 'veld1', 'id':'training' })
             }
         
     def contact_mail(self):
@@ -35,7 +35,7 @@ class Form_Co (forms.ModelForm):
                 f"Beste Michelle Degenaars,\n"
                 f"Ik ben geinteresseerd in {training}.\n"
                 f"Dit zijn mijn gegevens:\n\n"
-                f"naam: {naam}\n"
+                f"Naam: {naam}\n"
                 f"Mijn emailadres: {email}\n"
                 f"Mijn telefoonnummer: {telefoon}\n\n"
                 f"Mijn niveau is  {niveau} en ik ben {leeftijd} jaar oud. \n" )
